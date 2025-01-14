@@ -1,0 +1,254 @@
+Below is a detailed wireframe design for the front-end UI/UX concept
+Each sub-screen is included, and all buttons have actions to navigate between screens.
+--- ### **1. General Layout**
+
+The app uses a multi-panel layout with a vibrant, modern design:
+
+    Sidebar (Left): Collapsible navigation menu with colorful icons and hover effects.
+    Main Workspace (Center): Primary area for user interaction, featuring clean grids, cards, and previews.
+    Secondary Panel (Right): Context-sensitive panel with detailed information or additional actions.
+    Header (Top): Bright and engaging toolbar with a global search bar, user profile, and notifications.
+    Footer (Optional): Minimal status bar with progress indicators or system messages.
+
+--- ### **2. Color Palette**
+
+    Primary Color: Vibrant Blue (#007BFF) for buttons and highlights.
+    Secondary Color: Soft Orange (#FFA500) for accents and hover effects.
+    Background: Light Gray (#F5F5F5) for the main workspace, with White (#FFFFFF) for panels.
+    Text: Dark Gray (#333333) for primary text, Light Gray (#888888) for secondary text.
+    Accent Colors: Green (#28A745) for success, Red (#DC3545) for errors, and Purple (#6F42C1) for special actions.
+
+--- ### **3. Typography**
+
+    Font Family: Roboto (clean and modern).
+    Header Font Size: 24px (bold).
+    Body Font Size: 16px (regular).
+    Button Font Size: 14px (medium weight).
+
+--- ### **4. Wireframe Design for Key Screens** #### **a) Dashboard**
+
+Layout:
+
+    Header:
+        App logo on the left.
+        Global search bar in the center with a magnifying glass icon.
+        User profile icon and notifications bell on the right.
+    Sidebar:
+        Vibrant icons with labels for each section (Dashboard, Uploads, Face Recognition, Image Search, Settings, Help/Support).
+        Collapse/expand toggle button at the bottom.
+    Main Content:
+        Quick Access Cards:
+            Cards with gradient backgrounds (Blue to Purple) and icons.
+            Example: "Upload Images" card with an upload icon and a "Get Started" button.
+        Recent Uploads:
+            Grid of 4x4 thumbnails with hover effects (scale up slightly on hover).
+        Analytics Widgets:
+            Circular progress bars and line charts with vibrant colors.
+    Footer:
+        Status bar with a welcome message and a "Get Started" button.
+
+--- #### **b) Batch Image Upload**
+
+Layout:
+
+    Header: Same as Dashboard.
+    Sidebar: Same as Dashboard.
+    Main Content:
+        Drag-and-Drop Area:
+            Large area with a gradient background (Blue to Orange) and a "Drag & Drop images here" text.
+            "Upload" button with a vibrant Blue background.
+        Preview Section:
+            Thumbnails of selected images with "Remove" buttons (Red) and "Edit" icons (Blue).
+        Upload Button:
+            Prominent button with a "Start Upload" label and a loading spinner.
+        Progress Bar:
+            Colorful progress bar (Green for success, Red for errors).
+    Footer:
+        Progress indicators for ongoing uploads and a "Cancel" button.
+
+--- #### **c) Video Upload and Frame Extraction**
+
+Layout:
+
+    Header: Same as Dashboard.
+    Sidebar: Same as Dashboard.
+    Main Content:
+        Video Upload Section:
+            Drag-and-drop area with a gradient background (Blue to Purple) and a "Drop video here" text.
+            Video preview player with play, pause, and seek controls.
+        Frame Extraction Options:
+            Dropdown for frame rate selection (e.g., "Extract every X seconds").
+            Sliders for start/end time with vibrant handles.
+        Preview Section:
+            Grid of extracted frames with checkboxes for selection.
+        Action Buttons:
+            "Extract Frames" button (Blue) and "Upload Selected Frames" button (Green).
+    Footer:
+        Progress indicators for frame extraction and upload processes.
+
+--- #### **d) Face Recognition Window**
+
+Layout:
+
+    Header: Same as Dashboard.
+    Sidebar: Same as Dashboard.
+    Main Content:
+        Face Gallery:
+            Grid view of recognized faces with labels (e.g., "Face 1", "Face 2").
+            Each face card has a hover effect (shadow and scale up slightly).
+        Detail Panel:
+            Right panel showing all images/videos where the selected face appears.
+            "View Details" button with a vibrant Blue background.
+    Footer:
+        Status message showing the number of recognized faces.
+
+--- #### **e) Verbose Image Search**
+
+Layout:
+
+    Header: Same as Dashboard.
+    Sidebar: Same as Dashboard.
+    Main Content:
+        Search Bar:
+            Text input field with a magnifying glass icon and an "Upload Image" button for reverse search.
+        Results Section:
+            Grid view of matching images with tags and metadata below each image.
+        Filter Panel:
+            Left panel with filters for date range, tags, resolution, and categories.
+            "Apply Filters" button at the bottom (Blue).
+        Detail Panel:
+            Right panel showing detailed information about the selected image.
+    Footer:
+        Status message showing the number of results found.
+
+--- #### **f) Settings**
+
+Layout:
+
+    Header: Same as Dashboard.
+    Sidebar: Same as Dashboard.
+    Main Content:
+        Tabs:
+            "General", "Account", "Notifications" tabs on the left with vibrant icons.
+        General Settings:
+            Theme toggle (Light/Dark Mode) with a switch.
+            Language selector with a dropdown.
+        Account Settings:
+            Profile picture upload, username, email, and password fields.
+        Notifications Settings:
+            Toggle switches for different notification types (e.g., new uploads, face recognition alerts).
+    Footer:
+        Save changes button at the bottom (Green).
+
+--- ### **5. Visual Enhancements**
+
+    Gradients: Use gradients (e.g., Blue to Purple) for buttons and backgrounds to create a modern look.
+    Hover Effects: Add subtle hover effects (e.g., shadow, scale up) to buttons and cards.
+    Animations: Use smooth transitions (e.g., fade-in, slide-in) for panel changes and button clicks.
+    Icons: Use vibrant material design icons for consistency and clarity.
+    Spacing: Ensure adequate spacing between elements for a clean and organized layout.
+
+---
+
+This must maintain ** A colorful modern design** to ensure the app is visually appealing, functional, and user-friendly, encouraging users to test and explore its features.
+
+Instruction point:
+Front-end** with all the required screens, navigation, and colorful modern design. It excludes backend functionality but ensures all buttons navigate to their respective sub-screens.
+--- ### **Prompt**
+
+Objective:
+Create a Front-end UI/UX for a desktop app according to the provided wireframe design. The app should have a colorful modern design and include all sub-screens with navigation between them. No backend functionality is required, but all buttons must navigate to their respective sub-screens.
+--- ### **Requirements**: #### **1. General Layout**
+
+    Use a multi-panel layout:
+        Sidebar (Left): Collapsible navigation menu with vibrant icons and hover effects.
+        Main Workspace (Center): Primary area for user interaction.
+        Secondary Panel (Right): Context-sensitive panel for details or additional actions.
+        Header (Top): Bright toolbar with a global search bar, user profile, and notifications.
+        Footer (Optional): Minimal status bar with progress indicators or system messages.
+
+#### **2. Color Palette**
+
+    Primary Color: Vibrant Blue (#007BFF).
+    Secondary Color: Soft Orange (#FFA500).
+    Background: Light Gray (#F5F5F5) for the main workspace, White (#FFFFFF) for panels.
+    Text: Dark Gray (#333333) for primary text, Light Gray (#888888) for secondary text.
+    Accent Colors: Green (#28A745) for success, Red (#DC3545) for errors, Purple (#6F42C1) for special actions.
+
+#### **3. Typography**
+
+    Font Family: Roboto.
+    Header Font Size: 24px (bold).
+    Body Font Size: 16px (regular).
+    Button Font Size: 14px (medium weight).
+
+#### **4. Screens and Navigation**
+
+The app must include the following screens with navigation between them:
+
+    Dashboard:
+        Quick access cards (e.g., "Upload Images," "Upload Video," "Search Images").
+        Recent uploads grid.
+        Analytics widgets.
+        Navigation to: Uploads, Face Recognition, Image Search, Settings.
+
+    Batch Image Upload:
+        Drag-and-drop area with an upload button.
+        Preview section with thumbnails.
+        Progress bar for uploads.
+        Navigation to: Dashboard.
+
+    Video Upload and Frame Extraction:
+        Video upload section with a preview player.
+        Frame extraction options (frame rate, start/end time).
+        Preview grid of extracted frames.
+        Navigation to: Dashboard.
+
+    Face Recognition Window:
+        Grid of recognized faces with labels.
+        Detail panel for selected face.
+        Navigation to: Dashboard.
+
+    Verbose Image Search:
+        Search bar with text and reverse image search options.
+        Results section with a grid of matching images.
+        Filter panel for refining results.
+        Detail panel for selected image.
+        Navigation to: Dashboard.
+
+    Settings:
+        Tabs for General, Account, and Notifications settings.
+        Options for theme toggle, language selector, and profile settings.
+        Navigation to: Dashboard.
+
+#### **5. Visual Enhancements**
+
+    Use gradients for buttons and backgrounds (e.g., Blue to Purple).
+    Add hover effects (e.g., shadow, scale up) to buttons and cards.
+    Use smooth animations for transitions between screens (e.g., fade-in, slide-in).
+    Ensure responsive design for different screen sizes.
+
+#### **6. Navigation**
+
+    All buttons must navigate to their respective sub-screens.
+    Use the best transitions.
+    Example: Clicking "Upload Images" on the Dashboard navigates to the Batch Image Upload screen.
+
+--- ### **Expected Output**:
+
+    A Fully functional Front-end project with all the required screens and navigation.
+    A colorful modern design with gradients, hover effects, and animations.
+    All buttons must navigate to their respective sub-screens.
+    No backend functionality is required.
+
+--- ### **Instructions**:
+
+    Generate the front-end code for the app based on the wireframe design.
+    Ensure all buttons navigate to their respective sub-screens`.
+    Use the specified color palette, typography, and visual enhancements.
+    Include all screens: Dashboard, Batch Image Upload, Video Upload, Face Recognition, Image Search, and Settings.
+    No backend functionality is required.
+
+---
+
+Ensures that you generate a fully functional front-end UI/UX that matches the wireframe design and provides a colorful, modern, and user-friendly experience.
